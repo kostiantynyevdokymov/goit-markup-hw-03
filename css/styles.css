@@ -76,6 +76,8 @@ body {
   background-color: inherit;
   padding-top: 24px;
   padding-bottom: 25px;
+  display: flex;
+  align-items: center;
 }
 .header-container {
   display: flex;
@@ -201,15 +203,16 @@ background: #188CE8;
 /* ---our work---- */
 .our-work {
   
-
 }
 .our-work-container {
- 
+
 }
 .our-work-list {
-  
+display: flex;
 }
 .our-work-item {
+  margin-top: 50px;
+  margin-left: 30px;
 }
 /* --- our team--- */
 .our-team {
@@ -217,20 +220,21 @@ background: #188CE8;
 
 }
 .our-team-list {
+  padding-top: 94px;
   padding-bottom: 94px;
   display: flex;
  
 
 }
 .our-team-item {
-  width: 270px;
+width: 270px;
 height: 368px;
 background: #FFFFFF;
 /* material shadow v1 */
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
-
-margin-right:not(:last-child): 30px;
+margin-left: 30px;
+align-items: center;
 
 }
 .our-team-name {margin-top: 30px;
