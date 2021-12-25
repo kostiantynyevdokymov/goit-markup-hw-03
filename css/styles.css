@@ -165,11 +165,12 @@ body {
 /*---make order-- */
 .make-order {
   background-color: #2f303a;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .make-order-title {
-  padding-top: 200px; 
-  margin-left: 237px;
-  margin-right: 237px;
+margin: 0 auto 30рх;
+max-width: 700px; 
  
 font-family: Roboto;
 font-style: normal;
@@ -184,10 +185,8 @@ color: #FFFFFF;
 }
 .make-order-button {
   background: #2196f3;
-  margin-left: 485px;
-  margin-right: 485px;
-  margin-top: 30px;
-  margin-bottom: 200px;
+  margin: 0 auto; 
+  display: block;
 
 }
 .make-order-button:hover,
@@ -200,10 +199,10 @@ background: #188CE8;
 }
 /* ---features--- */
 .features {
-
+padding-top: 94px;
 }
 .features-list {
-  padding-top: 94px;
+  
   display: flex;
 }
 .features-item {
@@ -213,9 +212,6 @@ background: #188CE8;
 /* ---our work---- */
 .our-work {
   
-}
-.our-work-container {
-
 }
 .our-work-list {
 display: flex;
